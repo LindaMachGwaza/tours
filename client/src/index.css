@@ -1,0 +1,75 @@
+/*Font family specified, margin removed*/
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*Header text customised*/
+.header-text {
+  color: #606080;
+  font-weight: 500;
+  margin-top: 17px;
+  font-size: 17px;
+}
+/*Tour card styled */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.tag-card {
+  margin: 10px 0 0 20px;
+  color: #806a78;
+}
+/*Customise tour name title*/
+.tourName {
+  color: "#F48FB1";
+  font-size: 18px;
+  margin: 0 0 0 4px;
+  font-weight: 500;
+}
+/*Error message if no tags found*/
+.tagErrMsg {
+  color: #cbf3fbee;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+/*dashboard header customised*/
+h4 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h4:before,
+h4:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h4:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h4:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/*Sources used include HyperionDev notes, previous tasks, Google, Stackoverflow, Github, YouTube and Google console*/
